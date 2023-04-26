@@ -12,7 +12,7 @@ export default function Sidebar() {
     return (
         <div>
             <img onClick={() => { toggleNav() }}
-                className='logo' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__10__zn7YAAwIR.webp?updatedAt=1682516186976' />
+                className='logo cursor-pointer' src='https://ik.imagekit.io/juwoncaleb/ezgif.com-gif-maker__10__zn7YAAwIR.webp?updatedAt=1682516186976' />
 
             <AnimatePresence>
                 <motion.div
